@@ -1,0 +1,480 @@
+@media (max-width:768px){	
+.swiper-container-vertical>.swiper-pagination-bullets{
+    display: none;
+}
+.swiper-slide.slide-four{
+    background: url(../images/worksbj-w.jpg) no-repeat center top,#000;
+}
+
+.center{
+    width: 100%;
+}
+.slide-one .header{
+    height: 1.2rem;
+    padding: 0.2rem 0;
+}
+.slide-one .header .logo{
+    width: 2rem;
+    height: auto;
+    margin-left: 10%;
+}
+.slide-one .header .logo>img{
+    width: 100%;
+    height: auto;
+}
+.slide-one .one-pic3,.slide-one .one-pic2{
+    bottom: 10%;
+}
+.slide-one .one-text{
+    top: 18%;
+}
+.slide-one .one-pic1{
+    width: 4rem;
+    height: 3rem;
+    margin-left: -2rem;
+    bottom: 43%;
+}
+.slide-one .one-text>p{
+    font-size: 0.68rem;
+}
+.slide-two .two-content{
+    height: 9.95rem;
+    top: 27%;
+}
+.slide-two .title{
+    top: 10%;
+}
+.slide-two .picture{
+    width: 100%;
+}
+.swiper-slide-active .picture>div:nth-child(1),
+.swiper-slide-active .picture>div:nth-child(2){
+    width: 2.8rem;
+    height: 2.8rem;
+}
+.swiper-slide-active .picture>div:nth-child(3),
+.swiper-slide-active .picture>div:nth-child(4),
+.swiper-slide-active .picture>div:nth-child(5),
+.swiper-slide-active .picture>div:nth-child(6){
+    width: 2.6rem;
+    height: 2.6rem;
+}
+.swiper-slide-active .picture>div:nth-child(7){
+    width: 4rem;
+    height: 4rem;
+    top: 20%;
+    margin-left: -2rem;
+}
+.slide-two .picture>div:nth-child(1){
+    left: -30%;
+}
+.swiper-slide-active .picture>div:nth-child(1){
+    transition: all 0.4s ease 0.3s;
+    left: 12%;
+}
+.swiper-slide-active .picture>div:nth-child(2){
+    right: 12%;
+    transition: all 0.4s ease 0.3s;
+}
+.swiper-slide-active .picture>div:nth-child(3){
+    left: 3%;
+    top: 31%;
+    transition: all 0.4s ease 0.3s;
+}
+.swiper-slide-active .picture>div:nth-child(4){
+    right: 3%;
+    top: 31%;
+    transition: all 0.4s ease 0.3s;
+}
+.swiper-slide-active .picture>div:nth-child(5){
+    left: 18%;
+    bottom: 10%;
+    transition: all 0.4s ease 0.3s;
+}
+.swiper-slide-active .picture>div:nth-child(6){
+    right: 18%;
+    bottom: 10%;
+    transition: all 0.4s ease 0.3s;
+}
+.swiper-slide-active .picture>div:nth-child(7){
+    top: 24%;
+    transition: all 0.4s ease 0.1s;
+}
+.slide-two .picture>div .mack{
+    background: rgba(0,0,0,0.4);
+    opacity: 1;
+    transform: rotate(90deg);
+}
+.slide-two .picture>div .mack>p{
+    font-size: 0.3rem;
+}
+.slide-two .picture>div .mack>h3{
+    font-size: 0.409rem;
+}
+.slide-two .picture>div:nth-child(7) .mack{
+    opacity: 0;
+}
+.slide-two .picture>div:nth-child(1) .mack>h3, 
+.slide-two .picture>div:nth-child(2) .mack>h3{
+    left: 20%;
+    top: 27%;
+}
+.slide-two .picture>div:nth-child(1) .mack>p, 
+.slide-two .picture>div:nth-child(2) .mack>p {
+    left: 6%;
+    top: 42%;
+}
+.slide-two .picture>div:nth-child(3) .mack>h3, 
+.slide-two .picture>div:nth-child(4) .mack>h3, 
+.slide-two .picture>div:nth-child(5) .mack>h3, 
+.slide-two .picture>div:nth-child(6) .mack>h3{
+    left: 20%;
+    top: 28%;
+}
+.slide-two .picture>div:nth-child(3) .mack>p, 
+.slide-two .picture>div:nth-child(4) .mack>p, 
+.slide-two .picture>div:nth-child(5) .mack>p, 
+.slide-two .picture>div:nth-child(6) .mack>p{
+    left: 15%;
+    top: 41%;
+}
+.slide-mleft{
+    width: 100%;
+    height: 40%;
+}
+.slide-mleft .skill-main{
+    width: 100%;
+    padding: 0 0;
+    height: 52%;
+}
+.slide-mleft .title-img{
+    width: 100%;
+    height:auto;
+    padding: 0 0;
+    height:40%;
+}
+.slide-mleft .head-img{
+    width: 2.6rem;
+    height: 2.6rem;
+    left:-10%;
+    margin-left: -1.3rem;
+    top: 0;
+}
+.slide-mleft .head-img .mack{
+    top: 0;
+    opacity: 1;
+}
+.slide-mleft .head-img .mack>p{
+    line-height: 2.6rem;
+}
+.swiper-slide-active .slide-mleft .head-img{
+    top: 5%;
+    left: 50%;
+}
+.slide-mleft .skill-main .t-p{
+    width: 30%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.slide-mleft .skill-main .skill-ul{
+    width: 100%;
+    padding: 0 0;
+    margin-bottom: 0.5rem;
+    height: 1.2rem;
+}
+.slide-mleft .skill-ul .skill-li{
+    width: 1.2rem;
+    height: 1.2rem;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 0.3rem;
+    font-weight: 200;
+    line-height: 1.2rem;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    margin: 0 0;
+    position: absolute;
+    left:0;
+    top: 0;
+    opacity: 0;
+}
+.slide-mleft .skill-ul .skill-li:nth-child(1),
+.slide-mleft .skill-ul .skill-li:nth-child(2),
+.slide-mleft .skill-ul .skill-li:nth-child(3),
+.slide-mleft .skill-ul .skill-li:nth-child(4),
+.slide-mleft .skill-ul .skill-li:nth-child(5),
+.slide-mleft .skill-ul .skill-li:nth-child(6){
+    width: 1.2rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+}
+.slide-mleft .skill-ul .skill-li:nth-child(2),
+.slide-mleft .skill-ul .skill-li:nth-child(3),
+.slide-mleft .skill-ul .skill-li:nth-child(4),
+.slide-mleft .skill-ul .skill-li:nth-child(5),
+.slide-mleft .skill-ul .skill-li:nth-child(6){
+    left: 1.2rem;
+    top: 0;
+}
+.slide-mleft .skill-ul .skill-li:nth-child(2){
+    left: 1.2rem;
+    top: 0;
+}
+.swiper-slide-active .skill-ul .skill-li:nth-child(1){
+    top: 0;
+    left: 8%;
+    transition: all 0.5s ease 0.2s;
+}
+.swiper-slide-active .skill-ul .skill-li:nth-child(2){
+    top: 0;
+    left: 22%;
+    transition: all 0.5s ease 0.2s;
+}
+.swiper-slide-active .skill-ul .skill-li:nth-child(3){
+    top: 0;
+    left: 36%;
+    transition: all 0.5s ease 0.2s;
+}
+.swiper-slide-active .skill-ul .skill-li:nth-child(4){
+    top: 0;
+    left: 50%;
+    transition: all 0.5s ease 0.2s;
+}
+.swiper-slide-active .skill-ul .skill-li:nth-child(5){
+    top: 0;
+    left: 64%;
+    transition: all 0.5s ease 0.2s;
+}
+.swiper-slide-active .skill-ul .skill-li:nth-child(6){
+    top: 0;
+    left: 78%;
+    transition: all 0.5s ease 0.2s;
+}
+.slide-mleft .skill-li .mack{
+    width: 1.4rem;
+    height: 1.4rem;
+    top: 0;
+    left: 0;
+}
+.slide-mleft .skill-ul .skill-li:nth-child(1):hover .mack, 
+.slide-mleft .skill-ul .skill-li:nth-child(2):hover .mack, 
+.slide-mleft .skill-ul .skill-li:nth-child(3):hover .mack{
+    left: 0;
+    top: 20%;
+}
+.slide-mleft .skill-ul .skill-li:nth-child(4):hover .mack{
+    left: 0;
+    top: 35%;
+}
+.slide-mleft .skill-ul .skill-li:nth-child(5):hover .mack{
+    left: 0;
+    top: 50%;
+}
+.slide-mleft .skill-ul .skill-li:nth-child(6):hover .mack{
+    left: 0;
+    top: 25%;
+}
+.slide-mleft .skill-ul .skill-li:nth-child(1).active .mack, 
+.slide-mleft .skill-ul .skill-li:nth-child(2).active .mack, 
+.slide-mleft .skill-ul .skill-li:nth-child(3).active .mack{
+    left: 0;
+    top: 20%;
+}
+.slide-mleft .skill-ul .skill-li:nth-child(4).active .mack{
+    left: 0;
+    top: 35%;
+}
+.slide-mleft .skill-ul .skill-li:nth-child(5).active .mack{
+    left: 0;
+    top: 50%;
+}
+.slide-mleft .skill-ul .skill-li:nth-child(6).active .mack{
+    left: 0;
+    top: 25%;
+}
+.slide-mright{
+    width: 80%;
+    height: 46%;
+    top: 40%;
+    right:10%;
+    background-size: cover;
+}
+.swiper-slide-active .slide-mright{
+    opacity: 1;
+    right: 10%;
+}
+.slide-mright .star-img{
+    display: none;
+}
+
+.slide-mright div:nth-child(1) {
+    left: 0;
+    top: 24%;
+}
+.slide-mright div:nth-child(2){
+    left: 8%;
+    top: 45%;
+} 
+.slide-mright div:nth-child(3){
+    left: -6%;
+    bottom: 30%;
+} 
+.slide-mright div:nth-child(4){
+    left: 4%;
+    bottom: 2%;
+} 
+.slide-mright div:nth-child(5){
+    right: 36%;
+    bottom: 18%;
+} 
+.slide-mright div:nth-child(6){
+    right: 40%;
+    bottom: 41%;
+} 
+.slide-mright div:nth-child(7){
+    right: 27%;
+    top: 35%;
+} 
+.slide-mright div:nth-child(8){
+    left: 60%;
+    top: 14.5%;
+} 
+.slide-mright div:nth-child(9){
+    left: 18%;
+    top: 4%;
+} 
+.slide-mright div:nth-child(11){
+    right: 1%;
+    top: 28.5%;
+} 
+.slide-mright div:nth-child(12){
+    width: 0.1rem;
+    height: 0.1rem;
+}
+.slide-mright div:nth-child(10),
+.slide-mright div:nth-child(11),
+.slide-mright div:nth-child(13){
+    width: 0.2rem;
+    height: 0.2rem;
+}
+.slide-mright .star>p{
+    width: 3rem;
+    opacity: 1;
+    font-size: 0.3rem;
+    left: 0.2rem;
+}
+
+.slide-mright div:nth-child(1)>P{
+    top: -10%;
+    left: 0.2rem;
+    width: 2.7rem;
+}
+.slide-mright div:nth-child(2)>P,
+.slide-mright div:nth-child(3)>P,
+.slide-mright div:nth-child(6)>P{
+    top: -10%;
+    left: 0.15rem;
+    width: 2.8rem;
+}
+.slide-mright div:nth-child(4)>P,
+.slide-mright div:nth-child(5)>P{
+    top: -30%;
+    left: 0.3rem;
+    width: 3.5rem;
+}
+.slide-mright div:nth-child(9)>P{
+    top: -10%;
+    left: 0.15rem;
+    width: 3.5rem;
+}
+.slide-mright .star>span{
+    font-size: 0.353rem;
+}
+.slide-mright .star:nth-child(4)>span{
+    font-size: 0.5rem;
+}
+.slide-mright .star:nth-child(5)>span{
+    font-size: 0.545rem;
+}
+.slide-mright .star:nth-child(3)>span,
+.slide-mright .star:nth-child(7)>span,
+.slide-mright .star:nth-child(9)>span,
+.slide-mright .star:nth-child(2)>span, 
+.slide-mright .star:nth-child(6)>span{
+    font-size: 0.3rem;
+}
+.slide-mright .star:nth-child(9)>span{
+    font-size: 0.409rem;
+}
+.slide-four .title{
+    top: 10%;
+}
+.contact-main{
+    top: 10%;
+}
+.contact-main .t-logo{
+    width: 30%;
+    height: auto;
+    margin-top: 2rem;
+}
+.contact-main .t-text p{
+    color: #e9e9e9;
+    line-height: 0.8rem;
+    font-size: 0.3rem
+}
+.contact-main .foot{
+    width: 90%;
+    padding:5% 0;
+    margin-top: 0.5rem;
+}
+.contact-main .foot .wechat{
+    width: 35%;
+    height: 2.8rem;
+    margin-top:0.8rem;
+}
+.contact-main .foot .wechat>img{
+    width: 2.8rem;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.contact-main .t-contul{
+    width:57%;
+    margin-left:8%;
+    padding-bottom:0;
+    margin-top: 0.6rem;
+}
+
+.contact-main .t-contul .t-contli{
+    width: 50%;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    padding-left: 0.5rem;
+    margin: 0 0;
+}
+.contact-main .t-contul .t-contli .t-span{
+    font-size: 0.454rem;
+    line-height: 0.8rem;
+    display: inline;
+}
+.contact-main  .t-contul .t-contli:nth-child(1).active,
+.contact-main  .t-contul .t-contli:nth-child(2).active,
+.contact-main  .t-contul .t-contli:nth-child(3).active,
+.contact-main  .t-contul .t-contli:nth-child(4).active{
+    color: #fff;
+}
+.contact-main .t-contul .t-contli>a{
+    font-size: 0.354rem;
+    text-align: left;
+    line-height: 0.8rem;
+}
+.contact-main .foot .foot-p{
+    line-height: 0.409rem;
+    font-size: 0.353rem;
+    bottom: -20%;
+    color: #fff;
+}
+
+}
